@@ -39,12 +39,4 @@ jobs:
             -H "Travis-API-Version: 3" \
             -H "Authorization: token ${token}" \
             -d "{ \"request\": { \"branch\":\"master\" }}" \
-            https://api.travis-ci.org/repo/BugRoger%2Fcoreos-nvidia-driver/requests
-
-notifications:
-  slack: 
-    rooms:
-      - d26a:3WFB88N8V6onXGdA4fCwOvd4
-    on_success: change 
-    on_failure: always
-
+            https://api.travis-ci.org/repo/zazrivec/coreos-nvidia-driver/requests
