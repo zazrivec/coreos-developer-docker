@@ -3,6 +3,7 @@ sudo: required
 
 env:
   - COREOS_TRACK=stable OS_VERSION=1235.9.0
+  - COREOS_TRACK=stable OS_VERSION=current
 
 before_script:
   - curl https://${COREOS_TRACK}.release.core-os.net/amd64-usr/${OS_VERSION}/version.txt -o version.txt
