@@ -3,6 +3,7 @@ sudo: required
 
 env:
   - COREOS_TRACK=stable OS_VERSION=1235.9.0
+  - COREOS_TRACK=stable OS_VERSION=1235.12.0  
   - COREOS_TRACK=stable OS_VERSION=current
 
 before_script:
