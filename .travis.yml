@@ -8,6 +8,7 @@ env:
   - COREOS_TRACK=stable OS_VERSION=1800.7.0
   - COREOS_TRACK=stable OS_VERSION=1855.5.0
   - COREOS_TRACK=stable OS_VERSION=1911.3.0
+  - COREOS_TRACK=stable OS_VERSION=2079.3.0
   - COREOS_TRACK=stable OS_VERSION=current
 
 before_script:
